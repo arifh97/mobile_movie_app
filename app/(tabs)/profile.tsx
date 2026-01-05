@@ -1,10 +1,11 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import MainView from 'app/components/main-view'
 
 export default function Profile() {
     return (
-        <View>
+        <MainView>
             <Text>Profile</Text>
-        </View>
+        </MainView>
     )
 }
